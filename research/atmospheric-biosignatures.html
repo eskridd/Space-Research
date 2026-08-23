@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Technical analysis of exoplanet atmospheric biosignatures and transmission spectroscopy physics.">
+  <title>Atmospheric Biosignatures and Transmission Spectroscopy - Space Research</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="../index.html" class="brand-link" id="nav-brand">
+        <span>Space Research</span>
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="../index.html" id="nav-home">Home</a></li>
+          <li><a href="atmospheric-biosignatures.html" class="active" id="nav-research-1">Biosignatures</a></li>
+          <li><a href="sound-in-space.html" id="nav-research-2">Sound in Space</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <article class="article-container">
+      <header class="article-header">
+        <div class="article-meta">Exoplanet Atmospheric Physics</div>
+        <h1>Atmospheric Biosignatures and Transmission Spectroscopy</h1>
+      </header>
+
+      <div class="article-body">
+        <h2>Objective</h2>
+        <p>Determine how modern space telescopes analyze starlight passing through exoplanet atmospheres to detect chemical signatures, and identify the physical limits of distinguishing genuine biological indicators from purely abiotic chemical processes.</p>
+
+        <h2>Core Principle: Transmission Spectroscopy</h2>
+        <p>When an exoplanet passes directly in front of its parent star, most of the stellar light is blocked by the planet's solid disk. A tiny fraction of that starlight filters through the thin outer envelope of the planet's atmosphere before reaching an observer.</p>
+
+        <p>Gases absorb specific wavelengths of light based on their molecular transitions. By subtracting the stellar spectrum observed during transit from the stellar spectrum observed when the planet is out of transit, observers isolate the absorption spectrum of the atmosphere itself.</p>
+
+        <h2>Target Molecules and Spectral Windows</h2>
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Molecule</th>
+                <th>Primary Infrared Bands</th>
+                <th>Abiotic Pathways</th>
+                <th>Biological Relevance</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Water Vapor (H2O)</strong></td>
+                <td>1.4 &mu;m, 1.9 &mu;m, 2.7 &mu;m</td>
+                <td>Outgassing, cometary impacts</td>
+                <td>Solvent baseline for known carbon biochemistry</td>
+              </tr>
+              <tr>
+                <td><strong>Carbon Dioxide (CO2)</strong></td>
+                <td>2.0 &mu;m, 4.3 &mu;m, 15.0 &mu;m</td>
+                <td>Volcanism, carbon cycles</td>
+                <td>Atmospheric density marker and greenhouse balance</td>
+              </tr>
+              <tr>
+                <td><strong>Methane (CH4)</strong></td>
+                <td>2.3 &mu;m, 3.3 &mu;m, 7.7 &mu;m</td>
+                <td>Serpentinization, hydrothermal vents</td>
+                <td>Disequilibrium marker when coexisting with oxygen</td>
+              </tr>
+              <tr>
+                <td><strong>Ozone (O3)</strong></td>
+                <td>9.6 &mu;m</td>
+                <td>Photolysis of CO2 or water</td>
+                <td>Direct proxy for molecular oxygen (O2) presence</td>
+              </tr>
+              <tr>
+                <td><strong>Nitrous Oxide (N2O)</strong></td>
+                <td>4.5 &mu;m, 7.8 &mu;m, 17.0 &mu;m</td>
+                <td>High-energy lightning discharges</td>
+                <td>Microbial nitrogen cycle byproduct</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2>The Problem of False Positives: Chemical Disequilibrium</h2>
+        <p>A single atmospheric gas rarely proves biological activity. True biological signatures emerge from chemical disequilibrium: the sustained coexistence of reducing and oxidizing gases that should rapidly destroy each other under standard thermodynamic conditions.</p>
+
+        <ol>
+          <li><strong>Methane and Oxygen / Ozone</strong>: On a sterile rocky planet, atmospheric reactions destroy methane in the presence of oxygen within a few hundred years. Simultaneous high concentrations of both gases imply a continuous replenishment mechanism.</li>
+          <li><strong>Abiotic Oxygen Traps</strong>: A water-rich planet around an active M-dwarf star can lose its hydrogen through ultraviolet photolysis, leaving behind massive abiotic oxygen envelopes. Therefore, detecting oxygen alone without context regarding atmospheric humidity, host star UV activity, and carbon monoxide levels can lead to incorrect conclusions.</li>
+        </ol>
+
+        <h2>Physical Limits and Observational Challenges</h2>
+        <ul>
+          <li><strong>Cloud and Haze Decks</strong>: High-altitude aerosols and photochemical hazes create flat, featureless transmission spectra. They scatter starlight evenly, blocking deeper atmospheric layers where signature molecules exist.</li>
+          <li><strong>Stellar Contamination</strong>: Stellar spots, flares, and magnetic active regions change the star's own spectrum. If uncorrected, stellar surface inhomogeneities mimic the chemical absorption features of the planet.</li>
+          <li><strong>Signal-to-Noise Ratios</strong>: Earth-sized planets transiting Sun-like stars produce transit depth changes of only ten to one hundred parts per million. Detecting trace biosignatures demands stacking observations across dozens of separate transits.</li>
+        </ul>
+
+        <div class="takeaway-box">
+          <h3>Primary Takeaway</h3>
+          <p>Transmission spectroscopy turns exoplanets into natural optical filters. A reliable atmospheric biosignature cannot rely on a single gas. It requires detecting chemical disequilibrium across multiple spectral bands while ruling out stellar activity and abiotic production channels.</p>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>Research & Documentations by Eskrid - MIT License - 2026</p>
+  </footer>
+</body>
+</html>
